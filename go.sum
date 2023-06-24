@@ -531,6 +531,8 @@ github.com/mimoo/StrobeGo v0.0.0-20210601165009-122bf33a46e0 h1:QRUSJEgZn2Snx0Em
 github.com/mimoo/StrobeGo v0.0.0-20210601165009-122bf33a46e0/go.mod h1:43+3pMjjKimDBf5Kr4ZFNGbLql1zKkbImw+fZbw3geM=
 github.com/minio/highwayhash v1.0.2 h1:Aak5U0nElisjDCfPSG79Tgzkn2gl66NxOMspRrKnA/g=
 github.com/minio/highwayhash v1.0.2/go.mod h1:BQskDq+xkJ12lmlUUi7U0M5Swg3EWR+dLTk+kldvVxY=
+github.com/misko9/wasmvm v0.0.0-20230624212848-2e77ff428a3c h1:31Q0q0g0HdOrljUKe70VpLllHhorPK6yrjzb/tjkuaM=
+github.com/misko9/wasmvm v0.0.0-20230624212848-2e77ff428a3c/go.mod h1:ei0xpvomwSdONsxDuONzV7bL1jSET1M8brEx0FCXc+A=
 github.com/mitchellh/cli v1.0.0/go.mod h1:hNIlj7HEI86fIcpObd7a0FcrxTWetlwJDGcceTlRvqc=
 github.com/mitchellh/go-homedir v1.0.0/go.mod h1:SfyaCUpYCn1Vlf4IUYiD9fPX4A5wJrkLzIz1N1q0pr0=
 github.com/mitchellh/go-homedir v1.1.0/go.mod h1:SfyaCUpYCn1Vlf4IUYiD9fPX4A5wJrkLzIz1N1q0pr0=
