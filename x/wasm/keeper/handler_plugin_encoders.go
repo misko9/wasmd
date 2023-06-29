@@ -278,6 +278,8 @@ func EncodeIBCMsg(portSource types.ICS20TransferPortSource) func(ctx sdk.Context
 			if err != nil {
 				return nil, sdkerrors.Wrap(err, "amount")
 			}
+			// A comma is safe to use as a separator as it is an invalid character for channel id and won't be present without a memo
+			// https://github.com/cosmos/ibc/tree/main/spec/core/ics-024-host-requirements#paths-identifiers-separators
 			channelID, memo, _ := strings.Cut(msg.Transfer.ChannelID, ",")
 			msg := &ibctransfertypes.MsgTransfer{
 				SourcePort:       portSource.GetPort(ctx),
